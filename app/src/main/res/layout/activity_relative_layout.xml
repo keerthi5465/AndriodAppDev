@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative_layout">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keerthi Chowdary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- DOB TextView -->
+    <TextView
+        android:id="@+id/text_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB - 14 April 2005"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_name"
+        android:layout_marginTop="16dp" />
+
+    <!-- Quote TextView -->
+    <TextView
+        android:id="@+id/text_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_dob"
+        android:layout_marginTop="16dp"
+        android:text="Always work hard to get what you want rather than finding excuses. Fight for the reason."
+        android:padding="8dp" />
+
+    <!-- Button LinearLayout -->
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_quote"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/button_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To know more" />
+
+        <Button
+            android:id="@+id/button_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like and share"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>
