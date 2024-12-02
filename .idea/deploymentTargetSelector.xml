@@ -5,19 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CheckBox">
+      <SelectionState runConfigName="Explicit_Intent">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Radio_button">
+      <SelectionState runConfigName="Action_Bar">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Spinner">
+      <SelectionState runConfigName="Camera_Permission">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="List_view">
+      <SelectionState runConfigName="App_Chooser">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Snack_bar">
+      <SelectionState runConfigName="Alert_Box">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
