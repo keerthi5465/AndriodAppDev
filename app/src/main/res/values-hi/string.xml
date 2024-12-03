@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name ="text1">हेलो, यह कीर्ति है</string>
+    <string name="text2">आपसे मिलकर अच्छा लगा</string>
 </resources>

@@ -19,22 +19,26 @@
         android:theme="@style/Theme.Kotlin_Andriod_App"
         tools:targetApi="31">
         <activity
-            android:name=".Pop_Menu"
+            android:name=".App_locales2"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".Context_Menu"
+            android:name=".Pop_Menu"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".Alert_Box"
+            android:name=".Context_Menu"
             android:exported="true"></activity>
+        <activity
+            android:name=".Alert_Box"
+            android:exported="true" />
         <activity
             android:name=".App_Chooser"
             android:exported="true">

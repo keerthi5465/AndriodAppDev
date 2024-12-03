@@ -30,4 +30,5 @@ class Snack_bar : AppCompatActivity() {
             s2.show()
         }
     }
+
 }
